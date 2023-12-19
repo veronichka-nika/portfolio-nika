@@ -1,0 +1,380 @@
+html, body{
+    height: 100%;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #DAB1DE;
+   display: flex;
+   flex-direction: row;
+   flex-wrap:nowrap;
+   justify-content: center;
+   justify-content:space-evenly;
+   align-items: center;
+   height: 400px;
+}
+.container_blokii{
+   
+    margin-inline: 25px;
+}
+.container_img{
+    width: 450px;
+    height: 300px;
+    border:3px solid #BF43BA;
+    border-radius: 50px;
+}
+.container_text{
+    margin-right: 100px;
+}
+.container_zag{
+color: #BF43BA;
+}
+.container_p{
+margin-inline-end: 300px;
+
+}
+.uslugi{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #FFE3F6;
+   display: flex;
+   flex-direction: row;
+   flex-wrap:wrap;
+   justify-content:center ;
+   justify-content: space-around;
+   
+   height: auto !important;
+}
+.uslugi_list {
+    display: inline-block;
+    width: 202px;
+    height: 300px;
+   
+    align-items: baseline;
+    margin: 0 auto;
+  
+    text-align: center;
+    padding: 10px;
+  
+}
+.uslugi_img{
+    width: 220px;
+    height: 220px;
+    border-radius: 10%;
+    border: 3px solid #BF43BA;
+    transition: 1s;
+
+}
+.uslugi_img:hover{
+    transform: scale(1.1);
+}
+.Obomne{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto; 
+    margin-right: auto; 
+   background-color: #DAB1DE;
+   display: flex;
+   flex-direction: column;
+   flex-wrap:nowrap;
+  align-items: center;
+  vertical-align: middle;
+  justify-content:center ;
+   
+   height: auto;
+}
+
+
+
+.Obomne-img {
+   
+    align-items: center;
+    width: 550px;
+    height: 350px;
+    border: 5px solid #BF43BA;
+    border-radius: 15px;
+   
+}
+.Obomne_p{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    vertical-align: middle;
+}
+.raboti{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #FFE3F6;
+   display: flex;
+   flex-direction: row;
+   flex-wrap:wrap;
+   justify-content:center ;
+   justify-content: space-around;
+   
+   height: auto !important;
+   
+
+
+}
+.client{
+    align-items: baseline;
+    margin: 0 auto;
+  
+    text-align: center;
+    padding: 20px;
+}
+.client_img{
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+
+.formaflex{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #FFE3F6;
+   display: flex;
+   flex-direction: column;
+   flex-wrap:wrap;
+   
+   
+   height: auto !important;
+}
+#contact_form {
+  
+    padding: 7px;
+    margin-bottom: 10px;
+   
+    margin: 0 auto;
+    
+ 
+}
+
+#contact_form input, select {
+    border-radius: 8px;
+    border: 2px solid #db9ad0;
+    background-color:#DAB1DE;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.textforma_a{
+    width: 160px;
+    height: 110px;
+}
+
+.contakti{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto; 
+    margin-right: auto; 
+   background-color: #DAB1DE;
+   display: flex;
+   flex-direction: column;
+   flex-wrap:wrap;
+   text-align: center;
+   font-size: larger;
+   line-height: 1.5;
+   
+   height: auto !important;
+}
+.kontaktiki_roz{
+    color: #BF43BA;
+}
+.logo{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto; 
+    margin-right: auto; 
+   background-color: #BF43BA;
+   margin-top: auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap:wrap;
+   justify-content:flex-start ;
+   justify-content: space-between;
+   align-items: center;
+   height: auto !important;
+   
+}
+.logo-text{
+    margin-left: 50px;
+}
+#mainnav img{
+    width: 20px;
+    height: 20px;
+    display:inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    margin-left: 50px;
+    
+    
+}
+#mainnav h2{
+    width: 30px;
+   height: 30px;
+    text-align: left;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+#mainnav ul {
+   word-spacing: 120px;
+  margin: 30px;
+  margin-right: 100px;
+ 
+    list-style: none;
+    text-decoration: none;
+
+}
+
+#mainnav li {
+    display: inline-block;
+text-decoration: none;
+
+   
+}
+
+li :hover{
+    background-color: #e36bdf;
+    font-weight: bold;
+    font-size: larger;
+    font-style: italic;
+    
+}
+.siteform_st:hover{
+   color: #BF43BA;
+   font-style: italic;
+
+}
+
+#mainnav li.active a {
+    font-weight: bold;
+   
+}
+#mainnav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.ya div{
+    background-color:rgb(220, 218, 218);
+    font-size: small;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    
+}
+
+.link{
+    text-decoration: aqua;
+}
+
+.ya{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap:wrap;
+}
+.address img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+.email img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tel img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+h2{
+    font-size: small;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer_img{
+    width: 160px;
+    height: 160px;
+}
+#nomainnav img{
+    width: 45px;
+    height: 45px;
+    display:inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    
+    
+}
+#nomainnav h2{
+    width: 30px;
+   height: 30px;
+    text-align: left;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+#nomainnav ul {
+   word-spacing: 120px;
+  margin: 30px;
+  margin-right: 100px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+#nomainnav li {
+    display: inline-block;
+text-decoration: none;
+   
+}
